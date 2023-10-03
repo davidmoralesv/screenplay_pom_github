@@ -34,3 +34,6 @@ replay_pid*
 .project
 **/*.log
 **/*.lck
+
+!/gradle/wrapper/gradle.wrapper.jar
+!/gradle/wrapper/gradle-wrapper.properties
