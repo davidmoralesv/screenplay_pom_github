@@ -1,4 +1,4 @@
-package co.com.choucair.certification.SCREENPLAY_POM.pageobject;
+package co.com.choucair.pageobject;
 
 import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.PageObject;

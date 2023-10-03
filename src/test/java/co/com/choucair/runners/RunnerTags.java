@@ -1,4 +1,4 @@
-package co.com.choucair.certification.SCREENPLAY_POM.runners;
+package co.com.choucair.runners;
 
 
 import io.cucumber.junit.CucumberOptions;
@@ -7,6 +7,6 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(features = "src/test/resources/features/prueba.feature",
-        glue = "co.com.choucair.certification.SCREENPLAY_POM.stepdefinitions")
+        glue = "co.com.choucair.stepdefinitions")
 public class RunnerTags {
 }

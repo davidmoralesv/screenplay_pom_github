@@ -5,8 +5,8 @@ apply plugin: 'java-library'
 apply plugin: "net.serenity-bdd.serenity-gradle-plugin"
 compileJava.options.encoding = "UTF-8"
 compileTestJava.options.encoding = "UTF-8"
-def versionSerenity = '3.7.1'
-def versionCucumber = '7.6.0'
+def versionSerenity = '3.9.8'
+def versionCucumber = '3.9.8'
 def versionApachePoi = '5.2.2'
 repositories {
     mavenCentral()
@@ -18,12 +18,12 @@ buildscript {
         }
     }
     dependencies {
-        classpath "net.serenity-bdd:serenity-gradle-plugin:3.3.2"
+        classpath "net.serenity-bdd:serenity-gradle-plugin:3.9.8"
     }
 }
 dependencies {
     //DEPENDENCIAS DE SERENITY - TECNOLOGIAS WEB
-    implementation 'net.serenity-bdd:serenity-cucumber:3.3.2'
+    implementation 'net.serenity-bdd:serenity-cucumber:3.9.8'
     implementation "io.cucumber:datatable:${versionCucumber}"
     implementation 'org.junit.jupiter:junit-jupiter:5.8.1'
     testImplementation "io.cucumber:cucumber-junit:${versionCucumber}"
@@ -34,7 +34,7 @@ dependencies {
     implementation "net.serenity-bdd:serenity-report-resources:${versionSerenity}"
     implementation 'net.serenity-bdd:serenity-ensure:2.0.80'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
-    testImplementation 'io.github.bonigarcia:webdrivermanager:5.5.3'
+    testImplementation 'io.github.bonigarcia:webdrivermanager:5.4.1'
 
 
     //DEPENDENCIAS DE UTILIDADES

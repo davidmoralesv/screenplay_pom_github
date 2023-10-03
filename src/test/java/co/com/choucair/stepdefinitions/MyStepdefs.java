@@ -1,6 +1,6 @@
-package co.com.choucair.certification.SCREENPLAY_POM.stepdefinitions;
+package co.com.choucair.stepdefinitions;
 
-import co.com.choucair.certification.SCREENPLAY_POM.step.PopupValidationSteps;
+import co.com.choucair.step.PopupValidationSteps;
 import io.cucumber.java.es.Cuando;
 import io.cucumber.java.es.Dado;
 import io.cucumber.java.es.Entonces;

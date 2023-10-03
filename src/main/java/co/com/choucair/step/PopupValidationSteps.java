@@ -1,6 +1,6 @@
-package co.com.choucair.certification.SCREENPLAY_POM.step;
+package co.com.choucair.step;
 
-import co.com.choucair.certification.SCREENPLAY_POM.pageobject.ColorlibLoginPage;
+import co.com.choucair.pageobject.ColorlibLoginPage;
 import net.thucydides.core.annotations.Step;
 
 public class PopupValidationSteps {
