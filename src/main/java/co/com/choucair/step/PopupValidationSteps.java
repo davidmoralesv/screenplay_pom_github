@@ -13,7 +13,7 @@ public class PopupValidationSteps {
     }
 
     @Step
-    public void login_colorlib(String strUsuario, String strPass) {
+    public void loginColorlib(String strUsuario, String strPass) {
         colorlibLoginPage.IngresarDatos(strUsuario, strPass);
         colorlibLoginPage.VerificarHome();
     }

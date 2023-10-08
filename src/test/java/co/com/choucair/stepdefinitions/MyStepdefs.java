@@ -25,6 +25,6 @@ public class MyStepdefs {
 
     @Cuando("digita sus credenciales e ingresa a la app")
     public void digitaSusCredencialesEIngresaALaApp(List<List<String>> credenciales) {
-        popupValidationSteps.login_colorlib(credenciales.get(0).get(0), credenciales.get(0).get(1));
+        popupValidationSteps.loginColorlib(credenciales.get(0).get(0), credenciales.get(0).get(1));
     }
 }
