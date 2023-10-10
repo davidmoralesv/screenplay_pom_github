@@ -26,6 +26,7 @@ replay_pid*
 /.gradle/
 /.idea/
 /.settings/
+/.scannerwork/
 /bin/
 /build/
 /target/
